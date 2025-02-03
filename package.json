@@ -19,10 +19,10 @@
   ],
   "exports": {
     ".": {
-      "browser": "./build/browser/src/index.js"
+      "browser": "./build/browser/src/index.js",
+      "node": "./build/node/src/index.js"
     }
   },
-  "main": "build/browser/src/index.js",
   "files": [
     "build/browser/src"
   ],
@@ -34,10 +34,16 @@
     "@dashkite/amen": "^0.2.0",
     "@dashkite/amen-console": "^0.0.2",
     "@dashkite/assert": "^0.1.4",
+    "@dashkite/belmont": "link:../belmont",
+    "@dashkite/drn-sky": "link:../drn-sky",
     "@dashkite/genie": "link:../genie",
     "@dashkite/genie-clean": "link:../genie-clean",
     "@dashkite/genie-coffee": "link:../genie-coffee",
-    "@dashkite/genie-module": "link:../genie-module"
+    "@dashkite/genie-drn": "link:../genie-drn",
+    "@dashkite/genie-module": "link:../genie-module",
+    "@dashkite/genie-yaml": "link:../genie-yaml",
+    "@dashkite/halstead": "link:../halstead",
+    "@dashkite/profile": "link:../profile"
   },
   "dependencies": {
     "@dashkite/generic": "link:../generic"

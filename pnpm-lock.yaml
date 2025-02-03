@@ -21,6 +21,12 @@ importers:
       '@dashkite/assert':
         specifier: ^0.1.4
         version: 0.1.4
+      '@dashkite/belmont':
+        specifier: link:../belmont
+        version: link:../belmont
+      '@dashkite/drn-sky':
+        specifier: link:../drn-sky
+        version: link:../drn-sky
       '@dashkite/genie':
         specifier: link:../genie
         version: link:../genie
@@ -30,9 +36,21 @@ importers:
       '@dashkite/genie-coffee':
         specifier: link:../genie-coffee
         version: link:../genie-coffee
+      '@dashkite/genie-drn':
+        specifier: link:../genie-drn
+        version: link:../genie-drn
       '@dashkite/genie-module':
         specifier: link:../genie-module
         version: link:../genie-module
+      '@dashkite/genie-yaml':
+        specifier: link:../genie-yaml
+        version: link:../genie-yaml
+      '@dashkite/halstead':
+        specifier: link:../halstead
+        version: link:../halstead
+      '@dashkite/profile':
+        specifier: link:../profile
+        version: link:../profile
 
 packages:
 
