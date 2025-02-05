@@ -7,6 +7,7 @@ import Halstead from "@dashkite/halstead"
 Providers.add "local", Halstead
 
 import Resource from "../src"
+import CompositeResource from "../src/composite"
 
 import configuration from "./configuration"
 { origin } = configuration
@@ -86,15 +87,39 @@ do ->
       #     .get()
       #     .resolve "value"
 
-      # await greeting.set "good day!"
+      await greeting.set "good day!"
 
-      # greeting.deactivate()
-      # await greeting.set "hola!"
+      greeting.deactivate()
+      await greeting.set "hola!"
 
       console.log renders
 
+    await test "composite resources", ->
 
+      resources = await CompositeResource.resolve
+        greeting: template: "local:/components/greeting"
+        profile: template: "local:/components/profile"
 
+      resources
+        .observe()
+        .when "update", ({ value }) -> actual.update.push value
+        .run()
+
+      await resources
+        .put ({ profile }) -> 
+          { greeting: "bonjour!", profile }
+        .when "value", ({ value }) -> actual.put.push value
+        .run()
+
+      resources.cancel()
+
+      await greeting
+        .put ({ profile }) -> 
+          { greeting: "mahalo!", profile }
+        .when "value", ({ value }) -> actual.put.push value
+        .run()
+
+      console.log actual
 
   ]
 

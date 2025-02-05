@@ -1,6 +1,5 @@
 import Belmont from "@dashkite/belmont"
 
-
 class Resource
 
   @make: ( locator ) ->
@@ -13,7 +12,8 @@ class Resource
 
   resolve: ->  @resource = await Belmont.resolve @locator
 
-  observe: -> @observer = @resource.observe()
+  observe: ->
+    @observer ?= @resource.observe()
 
   cancel: -> 
     @resource.cancel @observer
