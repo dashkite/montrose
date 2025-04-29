@@ -51,6 +51,9 @@ importers:
       '@dashkite/profile':
         specifier: link:../profile
         version: link:../profile
+      '@dashkite/vista':
+        specifier: link:../vista
+        version: link:../vista
 
 packages:
 

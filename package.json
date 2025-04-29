@@ -47,7 +47,8 @@
     "@dashkite/genie-module": "link:../genie-module",
     "@dashkite/genie-yaml": "link:../genie-yaml",
     "@dashkite/halstead": "link:../halstead",
-    "@dashkite/profile": "link:../profile"
+    "@dashkite/profile": "link:../profile",
+    "@dashkite/vista": "link:../vista"
   },
   "dependencies": {
     "@dashkite/generic": "link:../generic"
