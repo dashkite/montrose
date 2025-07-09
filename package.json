@@ -45,11 +45,10 @@
     "@dashkite/genie-coffee": "link:../genie-coffee",
     "@dashkite/genie-drn": "link:../genie-drn",
     "@dashkite/genie-module": "link:../genie-module",
-    "@dashkite/genie-release": "link:../genie-release",
+    "@dashkite/genie-release": "^0.2.0",
     "@dashkite/genie-yaml": "link:../genie-yaml",
     "@dashkite/halstead": "link:../halstead",
-    "@dashkite/profile": "link:../profile",
-    "@dashkite/vista": "link:../vista"
+    "@dashkite/profile": "link:../profile"
   },
   "dependencies": {
     "@dashkite/generic": "link:../generic"
