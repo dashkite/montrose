@@ -49,8 +49,8 @@ importers:
         specifier: link:../halstead
         version: link:../halstead
       '@dashkite/profile':
-        specifier: link:../profile
-        version: link:../profile
+        specifier: 0.2.0
+        version: 0.2.0
 
 packages:
 
@@ -938,8 +938,14 @@ packages:
   '@dashkite/parse@0.4.3':
     resolution: {integrity: sha512-bE0kBjaGYjUnCzWJelQnx8vsfJ9YP07aRTVFZoY7TZWvMmnihoCSugL4IVWAOA2O0EAZXjT8FcjA4bNJ/BQwwg==}
 
+  '@dashkite/profile@0.2.0':
+    resolution: {integrity: sha512-RP6lrZLp+sJxLZ9DK6w4S0hEoA/6K5e+l7r06s/mRDcKL1j5Yx39CNjDwayzur3La39+hmGl7AiEGa63c5ETXg==}
+
   '@dashkite/sky-local-storage@0.1.0':
     resolution: {integrity: sha512-nkhAyAWQDsmem7YgEw7DC9BBXU+LyO+oR/J962FcVoUm9SYA1gk7QU0SbNVQZiGsNZG/T/iIjMHUH1bdidASRA==}
+
+  '@dashkite/storage@0.3.0':
+    resolution: {integrity: sha512-zn9iGlp6pAW6MYhyAzcBJHAMnNI7v9dInoV/RHfdzL9yocsL0Uo6/rtpDw+SobY4A++PwgjfOxXFyhEMXEd0BA==}
 
   '@dashkite/tweetnacl@1.0.3':
     resolution: {integrity: sha512-qBw5yhOw8mCe7fV6sw/5DIfQLW3txB+MlSDngf7h2WwnRz5CWzmhVBnKuYHcMXX9u50T4iW0AR/FwEl6Tm/TMQ==}
@@ -4093,9 +4099,15 @@ snapshots:
     dependencies:
       '@dashkite/joy': 0.3.16
 
+  '@dashkite/profile@0.2.0':
+    dependencies:
+      '@dashkite/storage': 0.3.0
+
   '@dashkite/sky-local-storage@0.1.0':
     dependencies:
       '@dashkite/zephyr': 0.3.0
+
+  '@dashkite/storage@0.3.0': {}
 
   '@dashkite/tweetnacl@1.0.3': {}
 
