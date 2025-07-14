@@ -51,6 +51,6 @@
     "@dashkite/profile": "0.2.0"
   },
   "dependencies": {
-    "@dashkite/generic": "link:../generic"
+    "@dashkite/generic": "0.3.0"
   }
 }
