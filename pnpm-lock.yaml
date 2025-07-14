@@ -39,9 +39,6 @@ importers:
       '@dashkite/genie-drn':
         specifier: 0.3.0
         version: 0.3.0
-      '@dashkite/genie-module':
-        specifier: link:../genie-module
-        version: link:../genie-module
       '@dashkite/genie-release':
         specifier: ^0.2.8
         version: 0.2.8
