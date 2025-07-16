@@ -48,7 +48,7 @@
     "@dashkite/genie-drn": "0.8.0",
     "@dashkite/genie-release": "^0.2.12",
     "@dashkite/genie-yaml": "0.7.0",
-    "@dashkite/halstead": "link:../halstead",
+    "@dashkite/halstead": "0.2.0",
     "@dashkite/profile": "0.5.0"
   },
   "dependencies": {
