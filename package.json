@@ -1,6 +1,6 @@
 {
   "name": "@dashkite/montrose",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "HTTP-based state-management",
   "keywords": [],
   "homepage": "https://github.com/dashkite/montrose#readme",
