@@ -879,8 +879,8 @@ packages:
   '@dashkite/drn-sky@0.8.6':
     resolution: {integrity: sha512-SZhWpax2ge+tqjGKveOYRBekxbCLhR8bJxBezNHuQQjg7ndN7CEMv2aFPTLl8vPjIfkPQYa5pEyTOz7Ta76f9g==}
 
-  '@dashkite/drn@0.12.7':
-    resolution: {integrity: sha512-PKESauREexQ/PHxfqdCEXeIsFZ7D5t+f2KWloHM83NkWiZMbNRFTmY7IOcLNx1UUDuI2dVNHMEVs/ehCKUPRMQ==}
+  '@dashkite/drn@0.12.8':
+    resolution: {integrity: sha512-tQqvyT+4z3bzlL8Z9zZSYySmtbCz2iinDuCxI9oElrsWZNvRrvYIePkzrRYCBwu/XSq06jsigVV2yz3V04p0yQ==}
 
   '@dashkite/generic@0.5.0':
     resolution: {integrity: sha512-XGLML0mHLgRKVprGgIUJS7EM7x0kMZGcQsvhGcZNfd1jl+zrWESgExxzU0O/KGbD7YOXJEhJ4aYoO0ZPBmqELg==}
@@ -4025,7 +4025,7 @@ snapshots:
     dependencies:
       '@dashkite/bake': 0.0.6
       '@dashkite/dolores': 0.8.0(@aws-sdk/credential-provider-node@3.529.0)
-      '@dashkite/drn': 0.12.7
+      '@dashkite/drn': 0.12.8
       '@dashkite/joy': 0.7.0
       '@dashkite/sky-local-storage': 0.8.0
       '@dashkite/xrl': 0.4.0
@@ -4037,7 +4037,7 @@ snapshots:
       - aws-crt
       - encoding
 
-  '@dashkite/drn@0.12.7':
+  '@dashkite/drn@0.12.8':
     dependencies:
       '@dashkite/bake': 0.0.6
       '@dashkite/joy': 0.7.0
@@ -4071,7 +4071,7 @@ snapshots:
 
   '@dashkite/genie-drn@0.12.7':
     dependencies:
-      '@dashkite/drn': 0.12.7
+      '@dashkite/drn': 0.12.8
       '@dashkite/drn-loader': 0.11.6
       '@dashkite/masonry-hooks': 0.8.0
       '@dashkite/zephyr': 0.9.0
